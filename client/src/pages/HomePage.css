@@ -1,0 +1,173 @@
+/* Color scheme for Expense Tracker */
+:root {
+    --primary-color: #4e6bff; /* Primary color (blue) */
+    --secondary-color: #f85d5d; /* Secondary color (red) */
+    --accent-color: #5bc0de; /* Accent color (light blue) */
+    --text-color: #333; /* Text color (black) */
+    --background-color: #FAFAFA !important ; /* Background color (light gray) */
+    --income-color: green; /* Color for income */
+    --expense-color: red; /* Color for expense */
+    --box-border-color: #57BA98; /* Border color for select frequency, select type, table, and analytics boxes */
+}
+
+/* Page background color */
+body {
+    background-color: var(--background-color);
+}
+
+/* Container styles */
+.container {
+    padding: 20px;
+}
+
+/* Card styles */
+.card {
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* White background color */
+}
+
+/* Card header styles */
+.card-header {
+    background-color: var(--primary-color); /* Use primary color for header */
+    color: #fff; /* Text color is white */
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 8px 8px 0 0; /* Rounded top corners */
+}
+
+/* Card body styles */
+.card-body {
+    padding: 20px;
+}
+
+/* Progress circle styles */
+.ant-progress-circle-path {
+    stroke-linecap: round;
+}
+
+/* Text styles */
+.text-success {
+    color: var(--income-color); /* Use income color for success text */
+    margin-bottom: 5px;
+}
+
+.text-danger {
+    color: var(--expense-color); /* Use expense color for danger text */
+    margin-bottom: 5px;
+}
+
+/* Progress bar styles */
+.progress-bar {
+    height: 10px;
+    border-radius: 5px;
+}
+
+/* Flex container styles */
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Grid styles */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+/* Column styles */
+.col-md-3,
+.col-md-6 {
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Small column styles */
+.col-md-3 {
+    max-width: 25%;
+}
+
+/* Medium column styles */
+.col-md-6 {
+    max-width: 50%;
+}
+
+/* Heading styles */
+h4 {
+    margin-bottom: 20px;
+}
+
+/* Custom styles for HomePage */
+.filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.filters > div {
+    margin-right: 20px;
+}
+
+.switch-icons {
+    display: flex;
+}
+
+.switch-icons > * {
+    cursor: pointer;
+}
+
+.inactive-icon {
+    color: #ccc;
+}
+
+/* Login and Registration Page Button Styles */
+.login-btn,
+.register-btn {
+    background-color: #050605 !important; /* Blue background color */
+    color: #fff !important; /* White text color */
+    border: none !important; /* No border */
+    padding: 10px 20px !important; /* Padding */
+    cursor: pointer !important; /* Cursor style */
+    border-radius: 5px !important; /* Rounded corners */
+    transition: background-color 0.3s ease !important; /* Smooth transition for background color */
+}
+
+.login-btn:hover,
+.register-btn:hover {
+    background-color: #747675 !important; /* Darker blue background color on hover */
+}
+
+/* Select frequency, select type, table, and analytics box styles */
+.select-box,
+.table-container,
+.analytics-container {
+    border: 1px solid var(--box-border-color) !important; /* Border color */
+    background-color: #57BA98 !important; /* Box background color */
+    padding: 20px !important; /* Padding */
+    border-radius: 8px !important; /* Rounded corners */
+    margin-bottom: 20px !important; /* Bottom margin */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important; /* Box shadow */
+}
+
+/* Add new button text box style */
+.add-new-textbox,
+.type-textbox,
+.category-textbox {
+    border: 1px solid #000 !important; /* Black border */
+}
+
+/* Dropdown menu style */
+.ant-select-selector {
+    border: 1px solid #000 !important; /* Black border */
+}
+
+/* Add space above table and analytics */
+.table-container,
+.analytics-container {
+    margin-top: 80px ;
+}

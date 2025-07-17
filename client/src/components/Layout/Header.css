@@ -1,0 +1,80 @@
+/* Layout styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.content {
+  padding: 20px;
+}
+
+/* Header styles */
+.navbar {
+  background-color: #57BA98 !important;
+  /* Primary color for the header */
+  color: #fff;
+  /* Text color for the header */
+  padding: 10px 0;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-toggler-icon {
+  color: #fff;
+  /* Color for the navbar toggle icon */
+}
+
+.nav-link {
+  color: #fff;
+  /* Text color for the navigation links */
+}
+
+/* Footer styles */
+.footer {
+  background-color: #57BA98 !important;
+  /* Primary color for the footer */
+  color: #fff;
+  /* Text color for the footer */
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Additional styling for the content box */
+.content-box {
+  background-color: #f0f0f0;
+  /* Light gray background color for the box */
+  border: 1px solid #ccc;
+  /* Gray border around the box */
+  border-radius: 5px;
+  /* Rounded corners for the box */
+  padding: 20px;
+  /* Padding inside the box */
+  margin: 20px 0;
+  /* Margin around the box */
+}
+
+/* Button styles */
+.btn {
+  background-color: #ffffff !important;
+  /* Orange background color for the button */
+  color: #1D3557 !important;
+  /* Text color for the button */
+  border: 1px solid #000 !important;
+  /* Black border for the button */
+  padding: 10px 20px !important;
+  /* Padding inside the button */
+  cursor: pointer !important;
+  /* Cursor style */
+  border-radius: 5px !important;
+  /* Rounded corners for the button */
+  transition: background-color 0.3s ease !important;
+  /* Smooth transition for background color */
+}
+
+.btn:hover {
+  background-color: #ffffff !important;
+  /* Yellow background color for the button on hover */
+}

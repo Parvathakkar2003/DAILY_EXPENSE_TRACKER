@@ -1,0 +1,41 @@
+/* Override existing styles for table container */
+.table-container {
+    margin-top: 20px;
+}
+
+/* Override existing styles for table */
+.ant-table {
+    border-collapse: separate; /* Separate borders for table cells */
+    border-spacing: 0; /* No spacing between table cells */
+}
+
+/* Override existing styles for table header */
+.ant-table-thead > tr > th {
+    background-color: #4e6bff; /* Background color for the table header */
+    color: #fff; /* Text color for the table header */
+    border: 1px solid #1b1a1a; /* Border for table header */
+    font-size: 14px; /* Larger font size */
+}
+
+/* Override existing styles for table cells */
+.ant-table-cell {
+    padding: 12px; /* Padding for table cells */
+    border: 1px solid #1b1a1a; /* Border for table cells */
+    font-size: 15px; /* Larger font size */
+    color: #000; /* Dark black text color */
+    text-align: center; /* Center align content */
+}
+
+/* Add border at the last row of the table transactions */
+.ant-table-tbody > tr:last-child > td {
+    border-bottom: 1px solid #1b1a1a; /* Border at the last row */
+}
+
+/* Center the content inside the first row of table cells */
+.ant-table-thead > tr:first-child > th {
+    text-align: center; /* Center align content inside the first row */
+    background-color: #57BA98; /* Background color for the first row */
+    color: #fff; /* Font color for the first row */
+    font-size: 17px; /* Larger font size */
+    font-weight: bold; /* Bold font weight */
+}

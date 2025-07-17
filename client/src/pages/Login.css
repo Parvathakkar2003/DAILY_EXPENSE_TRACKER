@@ -1,0 +1,90 @@
+/* Login.css */
+
+/* Button styling */
+.btn-primary,
+.btn-secondary {
+    background-color: #007bff; /* Blue color */
+    color: #ffffff; /* White text color */
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover */
+}
+
+/* Other styles */
+.register-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #e2f7ed; /* Changed background color */
+    background-size: cover;
+    background-position: center;
+}
+  
+.form-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex; /* Added */
+    flex-direction: column; /* Added */
+    align-items: center; /* Added */
+    justify-content: center; /* Added */
+    text-align: center; /* Added */
+}
+  
+.form-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #060707 !important; /* Adjusted font color */
+}
+  
+.form-item {
+    margin-bottom: 20px;
+}
+
+.link-to-register {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #1890ff;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.link-to-register:hover {
+    background-color: #40a9ff;
+}
+
+.ant-input {
+    background-color: transparent !important;
+    border-color: black !important;
+    color: black !important; /* Adjusted font color */
+}
+
+.btn-secondary {
+    width: 100%;
+}
+
+/* Increase font size of email and password */
+.form-item .ant-input {
+    font-size: 25px !important;
+}
+
+/* Custom label styling */
+.custom-label {
+    font-size: 22px; /* Adjust font size as needed */
+}
+
+.h1 {
+    color: #57BA98 !important; /* Adjusted font color */
+    margin: 0; /* Added */
+}
